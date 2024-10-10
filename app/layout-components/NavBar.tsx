@@ -16,10 +16,10 @@ function Navbar() {
           <Image src="/logo.png" alt="" width={500} height={500} />
           <span>LamaEstate</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/">Contact</Link>
+        <Link href="/">Agents</Link>
       </div>
       <div className="right">
         {user ? (

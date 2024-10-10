@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import Properties from "./components/Home/Properties";
-import CityProperties from "./components/Home/CityProperties";
+import Properties from "./layout-components/Home/Properties";
+import CityProperties from "./layout-components/Home/CityProperties";
 import "react-multi-carousel/lib/styles.css";
-import Navbar from "./components/NavBar";
-import Hero from "./components/Home/Hero";
+import Navbar from "./layout-components/NavBar";
+import Hero from "./layout-components/Home/Hero";
 import { Outlet } from "react-router-dom";
 import "./layout.scss";
 
